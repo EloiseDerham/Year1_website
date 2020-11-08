@@ -1,0 +1,276 @@
+/*every page*/
+.wrapper {
+  max-width: 1000px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 3px 0px 5px 5px rgba(50, 50, 50, 0.75);
+}
+  
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+  background-color: lightgrey;
+  grid-column: 1/-1;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+img {
+    width:100%;
+    max-width:300px;
+}
+.fltlft img{
+    float:left;
+}
+
+ .clear {
+ clear: both;
+}
+
+table
+{
+	border-collapse: collapse;
+	max-width: 35em;
+}
+table th, td{
+    border: 1px solid black;
+}
+
+.highlight{
+    border-left:solid 0.5em #FA6E03;
+    background-color:#CADDF2;
+}
+ 
+
+.menu {
+  background-color: lightgrey;
+  grid-column: 1 / -1;
+  
+}
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color:lightgrey; 
+}
+.menu li {
+  float: left;
+}
+.menu li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.menu li a:hover {
+  background-color: darkgrey;
+  color:black;
+}
+.active {
+  background-color: darkgrey;
+}
+/*index*/
+
+/* all views*/
+
+#indexGrid{
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 3fr;
+  }
+  .post{
+  font-family:Arial, Helvetica, sans-serif;
+}
+.testing img{
+    width:100%;
+    max-width:150px;
+}
+.testing ul{
+    list-style-type: none;
+}
+.testing li{
+    display:inline;
+    text-decoration:none;
+}
+.post header {
+  font-family: helvetica;
+  background-color:#EDF7F7;
+  
+}
+
+  dl {
+    padding: 0.5em;
+  }
+  dt {
+    float: left;
+    clear: left;
+    text-align: right;
+    font-weight: bold;
+    color: black;
+  }
+  dt::after {
+    content: ":";
+  }
+  dd {
+    margin: 0 0 0 110px;
+    padding: 0 0 0.5em 0;
+  }
+  
+  /*one column layout*/
+  
+   @media screen and (max-width: 60em) {
+       
+  .navBar {
+  display:none;
+  }
+.main {
+  grid-column: 1 / -1;
+  height:100%;
+  
+}
+
+.footer {
+  grid-column: 1 / -1;
+}
+  }
+  
+/*two column layout*/
+ 
+ @media screen and (min-width: 60em) {
+     
+.navBar {
+  grid-column: 1 / 2;
+}
+.navBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+.navBar li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #555;
+  color: white;
+  }
+.main {
+  grid-column: 2 / 3;
+  height:768px;
+  overflow-y: auto;
+}
+
+.footer {
+  grid-column: 1 / -1;
+}
+
+}
+
+
+/*tutorial page*/
+
+.video-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+}
+iframe	{
+  width: 100%;
+  height: auto;
+}
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /*16:9 */
+  height: 0; 
+}
+.video-container iframe {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+#tutorial img{
+    width:100%;
+    max-width:200px;
+    float:left;
+}
+/*single column layout*/
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  display: flex; 
+}
+.card-content {
+  flex-direction: column;
+  width: 100%;
+  border: 2px solid lightgrey;
+  border-radius: 1em 1em 1em 1em;
+  margin: 1.25em 1.25em 0.3em 0;
+  padding: 1em;
+}
+.card-content img {
+    float:left;
+}
+  
+  .card-content h4 {
+  background-color:lightblue;
+  padding: 0.5em;
+  margin-top: 0em;
+  text-align: center;
+}
+/*two column layout*/
+
+@media screen and (min-width: 60em) {
+  .card {
+    width: 50%;
+  }
+}
+
+ 
+/*Contact page*/
+
+#contactWrapper {
+  max-width: 1000px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 3px 0px 5px 5px rgba(50, 50, 50, 0.75)
+  }
+
+label {display: block;}
+input {
+  border-radius: 2px;
+  display: block;
+  margin:10px 0px;
+  outline:none;
+  
+  }
+input:focus {
+  border: 2px solid #ff6179;
+}
+select{
+  margin:2px;
+  outline:none;
+}
+select:focus{
+   border: 2px solid #ff6179;
+}
+textarea {
+  width: 50%;
+outline:none;
+}

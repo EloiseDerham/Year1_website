@@ -1,0 +1,85 @@
+
+<!doctype html>
+<html lang="en">
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact me </title>
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/stylesheet.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Strait" rel="stylesheet">
+  <link rel='icon' href='favicon.ico' type='image/x-icon'/>
+</head>
+
+<body>
+   
+  <!-- <div  id="contactWrapper" > -->
+  <div  id="contactWrapper" >
+    <header class="header">
+      <h1>C1435 Learning Journal</h1>
+      <h2>How to make a responsive website</h2>
+    </header>
+  <nav class="menu">
+      <ul>
+        <li><a href="index.html">Learning Journal</a></li>
+        <li><a href="tutorial.html">Tutorial</a></li>
+        <li class="active"><a href="contact.html">Contact me</a></li>
+      </ul>
+    </nav>
+  <form id="form1" autocomplete="on">
+    <fieldset id="contact">
+      <legend>Your contact details</legend>
+    <label for="name">Name<em>(required)</em></label>
+    <input type="text" id="name" required/>
+    <label for="email">Email<em>(required)</em></label>
+    <input type="text" id="email" required/>
+      <label for="url"> Website address</label>
+      <input type="text" id="url" value="http://"/>
+      <label for="phone">Telephone Number <em> (required)</em></label>
+      <input type="tel" id="phone" name="phone" 
+             pattern="[0-9]{4}-[0-9]{4}-[0-9]{3}"
+             required/>          
+      </fieldset>
+      <fieldset>
+        <legend> Extra information </legend>
+        <label for="campus"> what is your campus </label>
+        <select name="campus" id="campus">
+          <option value= "Moulscombe">Moulscombe</option>
+          <option value= "Falmer">Falmer</option>
+          <option value="Grand Parade">Grand Parade</option>
+        </select>
+
+
+        
+       <label for="date">Todays date</label>
+      <input id="date" type="date"/>
+      <label for="color"> Your favourite colour</label>
+      <input id="color" type= "color"/>
+      </fieldset>
+        <fieldset>
+          <legend>Your comments</legend>
+          <label for="message">Message:</label>
+          <textarea id="message" required></textarea>
+        </fieldset>
+          <fieldset>
+            <legend>would you like more information?</legend>
+            <label for= "information-yes">
+              <input type="radio" id="information-yes"
+                     name= "information" value="yes" /> Yes please</label>
+            <label for="information-no">
+              <input type=radio id="information-no"
+                     name="information" value="no" checked/>No thanks</label>
+          </fieldset>
+        
+           <input type="submit" value="click to send"/>
+      <button type="reset" value="Reset">Reset</button>
+          
+      
+  </form>
+  <footer>
+
+  </footer>
+      </div>
+
+</html>

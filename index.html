@@ -1,0 +1,522 @@
+<!doctype html><!--HTML5 doctype declaration -->
+<html lang="en"><!--default language of the document content -->
+    <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Learning Journal - c1435 Introduction to Web development </title>
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/stylesheet.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Strait" rel="stylesheet">
+  <link rel='icon' href='favicon.ico' type='image/x-icon'/>
+</head>
+
+<body>
+
+  <div class="wrapper" id="indexGrid">
+    <header class="header">
+      <h1>C1435 Learning Journal</h1>
+      <h2>How to make a responsive website</h2>
+    </header>
+    <nav class="menu">
+      <ul>
+        <li class="active"><a href="">Learning Journal</a></li>
+        <li><a href="tutorial.html">Tutorial</a></li>
+        <li><a href="contact.html">Contact me</a></li>
+      </ul>
+    </nav>
+   <div class="navBar">
+      <ul>
+        <li><a href="#week1">Getting started</a></li>
+        <li><a href="#week2">Learning more tags</a></li>
+        <li><a href="#week3">Learning about lists and tables</a></li>
+        <li><a href="#week4"> CSS basics</a></li>
+        <li><a href="#week5"> CSS box model</a></li>
+        <li><a href="#week6"> Responsive web</a></li>
+        <li><a href="#week7">Flexible media</a></li>
+        <li><a href="#week8">CSS3 Responisve layout</a></li>
+        <li><a href="#week9">Forms</a></li>
+        <li><a href="#week10">Grid layout</a></li>
+        <li><a href="#week11">Testing and Evaluation</a></li>
+        <li><a href="#refs">References</a></li>
+      </ul>
+    </div>
+    <main class="main">
+          <article class="post" >
+            <header>
+          <h3> <a id="week11"></a>Week 11 - Testing and Evaluation</h3>
+          <p>posted on <time datetime="2019-12-11"><strong>December 11, 2019</strong></time></p>
+          </header>
+          <p>I have created a page that contain a learning journal complete with content and extra reading from each week, a tutorial page with an embedded responsive video and a contact page with an interactive form. My website is responsive and alters its layout for different viewport widths.</p>
+          <ul class="testing">
+              <li><img src="images/phoneJournal.jpg" alt="responisve layout for journal"></li>
+              <li><img src="images/phoneTutorial.jpg" alt="responisve layout for tutorial"></li>
+              <li><img src="images/phoneContact.jpg" alt="responisve layout for contact"></li>
+          </ul>
+          <p> All images are also responsive and contain an alt tag allowing the visually impaired to know what the image is. All links work and are clear as to where they direct you, they also all open of site so that the user is not directed away from my web page.</p>
+           <div class=fltlft>
+          <p>I have used<a href="http://browsershots.org/" target="_blank">http://browsershots.org/</a> to check for browser optimisation. My website displays well on Chrome however on Firefox and many other browsers the grid layout does not work , however all the content still displays as normal.</p>
+          <img src="images/optimisation.jpg" alt="browser testing">
+          <div class="clear"></div>
+          </div>
+          <h5>Content and styling:</h5>
+          <p>I believe that my website has been styled well for ease of use however it is not the most modern looking website. Given more time I would have added more colour and fonts in order to make in more engaging. I think that my contact page could have had more CSS styling as it looks basic, however all the functions do work. </p>
+          <p>Peers have said that it does look boring and old however it is easy to understand and not over styled/ hard to view. They also said the learning journal page could do with some styling of paragraphs and headers as it is a lot of text in one place and can be hard to stay focused.</p>
+          <h5>Usability</h5>
+          <p>I would say that the usability of my website is good. Links are clearly labelled and go to the right place. Peers who have used my website have not had trouble figuring out how to navigate through it.</p>
+          <p>Overall I would like to have added more styling to my web page such as a colour scheme or further CSS validation for my form. I would also like to have implemented a burger menu for when my website is reduced to a one column layout for phone screens, I believe this would have looked cleaner than my current layout.However my website functions well and has no validation errors.</p>
+          </article>
+        <article class="post">
+            <header>
+          <h3> <a id="week10"></a>Week 10 - Grid layout</h3>
+          <p>posted on <time datetime="2019-12-04"><strong>December 4, 2019</strong></time></p>
+          </header>
+          <p>We learnt about another way of creating our website layout using the CSS grid layout.  It includes separating your page into sections before assigning each section a set grid-row and grid-column layout. However first you must declare your page as a grid format in your wrapper id.</p>
+          <p>I used this to relay out my Learning journal page, I first draw a diagram on paper of how I wanted my page laid out, I then numbered the grid lines and the columns and rows.</p>
+          <p>This has allowed me to style each section separately and made my CSS file a lot neater, it is also a fully responsive method.</p>
+          <p>I also learnt about code pen, and used it to edit my webpage, and test out different styling away from the main file. Any edits I was happy with I would then transfer to Brighton domains main website file. I also liked this website for experimenting with CSS and you could see all changes in real time, helping me understand what parts where affected but what code.</p>
+          <p>We also learn about the display property I have used display: none to make my learning journals responsive layout one column design. I have also used display inline for my horizontal menu at the top of my page.</p>
+          <p>Position: static is how elements are positioned by default other position keywords can be used to alter the normal flow. Position: relative positions an element relative to its normal static position, the space it would have been In is left blank but not free for other elements. Position fixed is used to position an element in relation to the browser viewport, if the page is scrolled or resized a fixed position element stays in the same position.</p>
+      </article>
+        <article class="post">
+        <header>
+          <h3> <a id="week9"></a>Week 9 - Forms</h3>
+          <p>posted on <time datetime="2019-11-27"><strong>November 27, 2019</strong></time></p>
+        </header>
+        <p>Forms are used within a webpage to make it interactive for the user, it allows the website provider to extract and collect data from the users. E.g.</p>
+        <ul>
+          <li>Contact details</li>
+          <li>Login details</li>
+          <li>Keyword searches</li>
+          <li>Payment details for ecommerce sites</li>
+          <li>Surveys</li>
+          <li>Uploading user content to social media</li>
+        </ul>
+        <p>HTML for a form is written using the following elements:</p>
+         <ul>
+          <li>&lt;form&gt;</li>
+          <li>&lt;fieldset&gt;</li>
+          <li>&lt;legend&gt;</li>
+          <li>&lt;label&gt;</li>
+          <li>&lt;input&gt;</li>
+          <li>&lt;textarea&gt;</li>
+          <li>&lt;button&gt;</li>
+        </ul>
+        <p>These are the basic form elements which can them be styled using CSS</p>
+        <p>The first step in creating a form is to use the &lt;form&gt; element beneath the navigation and before the footer, making sure to give it an id attribute so that it can be styled independently with CSS.</p>
+        <p>Within in the form element we use the following elements:</p>
+        <dl>
+          <dt>Text type input</dt>
+          <dd>allows the user to enter text into boxes</dd>
+          <dt>labels</dt>
+          <dd>text that tells the user about different form features</dd>
+          <dt>Radio buttons</dt>
+          <dd>a type of button where only one answer can be selected</dd>
+          <dt>fieldset and legend</dt>
+          <dd>a box and a caption for different parts of the form</dd>
+        </dl>
+        <p>Within a form you have input and label elements, input allows the user to input text while a label describes to the user the data they must enter, these are naturally inline elements , so within the CSS we must define them as block elements for them to display how we wish.</p>
+        <p>When writing html for a form the “for” attribute within the label element links to the “id” attribute within the input element. </p>
+        <p>The “value” attribute can be used to give the user an idea of how to fill out the box.</p>
+        <p>When creating a textarea you must define within the CSS how big you would like it to be using % or em.</p>
+        <p>Just like label and input for text, radio buttons must be associated in a group with the same value for the name attribute in order to work. You can use the Boolean attribute checked to pre chose one of the radio buttons options.</p>
+        <p>The submit input element has two possible actions either submitting or resetting the form, at the moment our submit button has no use as we are not connected to a database to submit any data too. I would like to make a reset button that allows the user to clear all from there form.</p>
+        <h4>Extra Reading</h4>
+        <P>Within my form I have used the button element along with the type and value of reset in order to create a button that allows the user to reset the entire form</P>
+        <h5 > Further Form elements include:</h5>
+        <ul class="highlight">
+          <li>&lt;select&gt; element allows you to create a drop-down menu using &lt;option&gt; to define an option which can be selected. </li>
+          <li>HTML5 &lt;datalist&gt; element specifies a list of pre-defined options for an &lt;input&gt; element.</li> 
+        </ul>
+        <h5> Further Form attributes include:</h5>
+        <ul class="highlight2">
+        <li>The multiple attribute allows the user to select more than one value.</li>
+        <li>Read only attribute specifies a field that cannot be edited only read, will not allow the user to edit it.</li>
+        <li>Size attribute specifies the size in character for the input field, just as the maxlength specifies the maximum length of input aloud.</li>
+        <li>The autocomplete attribute allows a form to automatically complete certain input based on a user’s previous inputs on other sites. It works for text, search, url, email, password, datepickers, range and color.</li>
+        <li>The pattern attribute specifies a regular pattern that the inputs value is checked against. It works for text, search, URL, tel, email, and password, this helps to validate a form before submission letting a user know what they have gotten wrong. you can use the global title attribute to describe the pattern to help the user.</li>
+        <li>The autofocus attribute directs focus to a certain field as the page loads.</li>
+        </ul>
+        <h5> Further Form types include:</h5>
+        <ul class="highlight3">
+        <li>The type password can be used to create a box which masks the users input.</li>
+        <li>The New input type file lets the user select and upload a file</li>
+        <li>Input type tel is used for fields that should contain a telephone number and can be used in conjunction with the pattern attribute to specify the pattern the telephone number must follow.</li>
+        </ul>
+      <p> I have used many of these within my own form page. </p>
+      <h5>Form validation</h5>
+        <P>As I learnt from the tutorial it is possible to create some simple form validation using html such as</p>
+        <ul>
+          <li>placeholder text showing the user how to fill in a form, using the attribute placeholder.</li>
+          <li>The require attribute to should users which data must be inputted. An error message will be shown if these fields are left blank</li>
+          <li>The email and URL types are validated by the browser to check the format.</li>
+        </ul>
+        
+         
+      </article>
+
+      <article class="post">
+        <header>
+          <h3><a id="week8"></a>Week 8 - CSS3 responsive layout</h3>
+         <p>posted on <time datetime="2019-11-20"><strong>November 20, 2019</strong></time></p>
+        </header>
+        <p>I have used flexbox layout for my tutorial page using one column for smaller screens and two columns for bigger screens. The flexbox model allows elements to be laid horizontally and vertically. I separated the smaller and bigger screen layout using media queries.</P>
+      <p>For a media query you must set the breakpoints, these are the viewport width at which the columns change. Testing should be undertaken on different devices to check that your min/max width is correct. Media queries are always written after default CSS properties for a page.</p>
+      <p>Within my media query for my learning journal page I have used display:none to get rid of the nav bar when the page is on a small screen, such as a phone. This improves visibility and makes the page easier to use on smaller devices.</p>
+      <img src="images/cards.jpg" alt="" style="width:300px;height:200px;">
+      
+      <p>Web page content is displayed in HTML order unless CSS dictates otherwise. One way is by using the float property in CSS , and element will keep floating until it is told to stop by the CSS.</p>
+      <p>Position element can also alter the flow of HTML, you can use position:relative , position: absolute , position:fixed and position sticky.</p>
+      </article>
+      <article class="post">
+          <header>
+          <h3><a id="week7"></a>Week 7 - Flexible media </h3>
+          <p>posted on <time datetime="2019-11-07"><strong>November 07, 2019</strong></time></p>
+        </header>
+          <p>Colour palettes can be used to match a clients brand and create a consistent webpage. Many websites offer colour palette generators.</p>
+          <p>It is possible to insert images using CSS however these must only be background images , any images important to the webpages content should be put in HTML. Instead of linking to an image in your image folder you can link directly to the images URL to identify the image source.</p>
+          <p>Background-repeat can be used to make an image repeat in the background. Repeat-y will make it repeat in vertically and x horizontally. The background attachment property will fix a background image so it does not scroll with the rest of the page content.</p>
+          <h5>Making a favicon</h5>
+          <p>The small image that appears in the browser address bar or tab is called a favicon. They help the user to recognise/ find a site within there tabs, it is also important branding for a site. I created a favicon from scratch by creating a bitmap image on http<a href="://www.favicon.cc/." target="_blank">://www.favicon.cc/.</a></p>
+          <img src="images/favicon.jpg" alt="favicon bitmap">
+          <p>once you have created your favicon you must insert a line of code in the head section of your HTML.</p>
+      </article>
+        <article class="post">
+        <header>
+          <h3> <a id="week6"></a>Week 6 - Responsive web</h3>
+           <p>posted on <time datetime="2019-11-10"><strong>November 30, 2019</strong></time></p>
+        </header>
+        <p>Before using the CSS3 grid layout out it is a good idea to sketch out your designs so that you know where you would like all of your components to be placed within your page.
+These are some paper wireframes that I created for both my tutorial and learning journal page:
+</p>
+        <p>It might also be a good idea to create different wireframes for different screen widths , for example for if you would like a certain element such as the nav bar to disapear on smaller screens, you could sketch a one column layout design.</p>
+        <p>The first step to creating a responsive web page is to add the viewport meta tag to the <code>&lt;head&gt;</code> of your HTML document. This ensures that the browser displays the full web page when used on a mobile device.</p>
+        <h5>A good way to lay out your CSS is as follows</h5>
+        <ol>
+          <li>Base styles – apply to all versions of the same web page, no matter the viewport width. </li>
+          <li>Grid Layout rules – sets up the structure for different viewport widths.</li>
+          <li>You can then write targeted CSS for different screen widths.</li>
+        </ol>
+        <p>You can specify different areas of your grid by using the grid-area property, which can then be used to layout your CSS in the desired column layout.</p>
+        <h5>Rules for grid layout:</h5>
+        <ul class="highlight">
+          <li>Every cell filled</li>
+          <li>Repeat name to span more than one cell</li>
+          <li>Use . to create an empty cell</li>
+          <li>Areas should be rectangular</li>
+          <li>Areas cant be repeated in more than one place</li>
+        </ul>
+        <p>It is good practice to Design websites with a mobile first approach.</p>
+        <p>Display inline and display block can both be used to create different menu types using lists from your HTML. I have used display inline to create a horizontal menu, and display block to create a vertical menu.</p>
+        <p>As well as the layout of pages media such as images should also be made flexible. To do this firstly all width and height attributes should be deleted from your HTML document, and image max-width should be set to 100% within your CSS. </p>
+        <div class="fltlft"><img src="images/fleximg.jpg.png" alt="example code"></div>
+        <p class="clear">This will ensure that the images max-width is 100% of its parent element, meaning that as the page changes size the image will change its size in proportion with its parent. for this reason, it is important that when the image is inserted into the website it is already at its largest size and highest resolution.</p>
+        <p>As you design a responsive website you should make sure to test it on many different devices to ensure the layout is correct across the board. The website that you can use to do this is: <a href="http://mobiletest.me/" target="_blank">http://mobiletest.me/</a> </p>
+        <h4>Extra Reading</h4>
+        <p>Using the fr element with grid to make it flexible. fr represents one fraction of the available space in the grid container.</p>
+        <p>Grid-column gap is used to create gaps between columns, grid-row gap between rows and grid-gap to set both at once. this can help with layout and design of a webpage, making certain sections easier to see/read. Gaps can be set to be any length unit or percentage but cannot be set to be a fraction.</p>
+        <p>You can use repeat to write shorter more precise code, repeat (3, 1fr); will create 3 1fr tracks.</p>
+        <p>Implicit vs explicit grid:</p>
+        <dl>
+          <dt>Explicit grid </dt>
+          <dd>is created using only gridtemplatecolumn or gridtemplaterows. </dd>
+          <dt>Implicit grid  </dt>
+          <dd>is created when content is placed outside of that grid. implicit grids are given a default size based on there content size, to change these automatic setting you can use grid-auto-rows and grid-auto-columns.</dd>
+        </dl>
+        <p>The minmax function lets you set a min and max function for your tracks to prepare for the unpredictability of content size.</p>
+      </article>
+      <article class="post">
+        <header>
+          <h3> <a id="week5"></a>Week 5 - CSS box model</h3>
+          <p>posted on <time datetime="2019-10-30"><strong>October 30, 2019</strong></time></p>
+        </header>
+        <p>This week was all about styling text, firstly we learnt about font-family. It is important to pick the right font for your website such as legible simple fonts for paragraphs. By specifying not one but a series of common fonts in your CSS it sets a fall back for the browser if user does not have the preferred font on their computer.</p>
+        <p>Like this – <code>font-family: Georgia, “Times New Roman”, Times, serif;</code> </p>
+        <p>You can also make a link in the head of your HTML document to a certain Google font.</p>
+        <p>As well as styling text you can also style paragraphs as whole. For example, you can adjust the line-height, margin, text-indent, dropcap and text-align. The margin property helps to create gaps between your paragraphs making each section easier to read. A dropcap is used in printed content and applied to the first character of a paragraph, I tested this out but did not like the look of it so have not used it within my<code> &lt;p&gt;</code> CSS.</p>
+        <div class="fltlft">
+            <img src="images/floating.jpg" alt="float on water">
+        <p>In order to insert images neatly within paragraphs you can use the float and clear properties to ensure that text content wraps around an image. If you float an image everything will float following that command unless you use the clear property, which should be applied to the next element following the floated element.</p>
+        <div class="clear"></div>
+        </div>
+          <h4>Extra Reading</h4>
+        <h5>The box model:</h5>
+        <P>To create layouts with CSS you have to understand the box model as everything in CSS has a box around it.
+          The way a box behaves in terms of page flow is defined by these two characteristics.</P>
+        <p>Block boxes</P>
+    <ul>
+      <li>Fills all space available </li>
+      <li>Will break into a new line</li>
+      <li>Width and height properties are respected </li>
+      <li>Using padding, margin and border will cause other elements to be pushed away from the box</li>
+      <li>Elements such as headings and paragraphs all use block as default</li>
+    </ul>
+       <p>Inline boxes</P>
+    <ul>
+      <li>Not break into a new line</li>
+      <li>Width and height properties do not apply</li>
+      <li>Padding, margin and borders will apply but not cause inline boxes to move away.</li>
+      <li>Used with elements such as &lt;a&gt; &lt;span> &lt;em&gt; and  &lt;strong&gt;.</li>
+    </ul>
+        <p>To change the type of box applied to an element the display property can be used using values block and inline.
+I have used display and block to style both nav bars on my page.
+</p>
+        <p>One of the things that can be edited with the box model is backgrounds and borders, as well as targeting different text directions.</p>
+      </article>
+      <article class="post">
+        <header>
+          <h3> <a id="week4"></a>Week 4 - CSS basics</h3>
+          <p>posted on <time datetime="2019-10-23"><strong>October 23, 2019</strong></time></p>
+        </header>
+        <p>I have now created a separate file to contain my CSS, and linked it to all my current HTML files.</p>
+        <p>Selectors – target elements in your HTML code by matching the name of the selector with an element in HTML. Selectors are organised in a logical order, starting by following the order that elements are written in HTML with the
+
+          <code>&lt;body&gt;</code> element first.
+        </p>
+        <p>It is important to order your CSS properly as CSS using the Cascading rule, where different rules are considered more or less important depending on where they come in the code. This can lead to certain rules in your CSS being overridden by code
+          written later in the document.</p>
+        <dl>
+          <dt>Type selectors</dt>
+          <dd>match the name of the selector with an HTML tag.</dd>
+          <dt>ID selectors</dt>
+          <dd>match the name of the selector with the value of an id attribute, a specific id attribute can only be used once in an HTML document, it is unique.</dd>
+          <dt>Class selectors</dt>
+          <dd>match the name of the selector with the value of the class attribute, the same class attribute can be used many times within one document.</dd>
+        </dl>
+        <p>When using a selector in CSS you can then declare what properties and values that element will be presented with in your browser.You can add properties such as font, color , text size , font family, etc.
+        </p>
+        <p>Here is a paragraph before and after styling along with the code used to create it:</p>
+        <!--images-->
+        <p>Anchor pseudo classes are used to style anchor elements such as links, links follow a uniform form throughout the internet , they are always underlined and blue, mauve when visited and red when active.CSS rules for links must always be written
+          in the order.</p>
+        <ul>
+          <li>a:link</li>
+          <li>a:visited</li>
+          <li>a:hover</li>
+          <li>a:active</li>
+        </ul>
+        <h4>Extra Reading</h4>
+        <p> The universal selector * ,selects everything in the document , any rule given after the asterisk will be applied to all elements. The universal indicator is only used in certain situations such as making selectors easier to read , stopping any
+          confusing code.</p>
+        <h5>Cascade model in more depth:</h5>
+        <p>The basics of the cascade model is that when two rules apply that have equal specificity the one that comes last in the CSS in the one that is used. An element is also less specific if it selects all elements of that type on the page, it is more
+          specific if it refers to a class or id attribute.</p>
+        <h5>Inheritance in CSS:</h5>
+        <p>If you set certain rules to an element every element inside it will also follow the same rules unless different values have been applied directly. Not all properties inherit, such as width.</p>
+        <p>CSS provides four special universal property values for controlling inheritance:</p>
+        <dl>
+          <dt>Inherit </dt>
+          <dd>sets the property value applied to be the same as the parent of the element</dd>
+          <dt>Initial</dt>
+          <dd>sets the property to be the same as that of the browsers default style sheet</dd>
+          <dt>Unset</dt>
+          <dd>resets the property to its natural value</dd>
+        </dl>
+        <p>I also learn tabout extra selectors that can be used in oreder to alter inheritance properties:</p>
+        <dl>
+        <dt>Child selector</dt>
+        <dd>Matches an element that is a direct child of another.</dd>
+        <dt>Desendent selector</dt>
+        <dd>Matches an element that is a descendent of another specified element (not just a direct child of that element.</dd>
+        <dt>Adjacent sibling Selector</dt>
+        <dd> Matches an element that the next sibling of another.</dd>
+        <dt>General sibling selector</dt>
+        <dd> Matches an element that is a sibling of another, although it does not have to be the directly preceding element<dd>
+        </dl>
+          <h5>HTML includes</h5>
+          <p>Can be used in import part of an HTML code that can be imported into any of your web pages, allowing for consistency in user experience. Gets rid of constant editing of repeated content on every new page. Can be achieved using SSI, PHP or Java.</p>
+      </article>
+      <article class="post">
+        <header>
+          <h3><a id="week3"></a>Week 3 - Learning about lists and tables</h3>
+          <p>Posted on <time datetime="2019-10-15"><strong>October 15, 2019</strong></time></p>
+        </header>
+        <p>In this lab we learned about more list types. these included</p>
+        <ol>
+          <li>Nested lists
+          <ul>
+            <li>Used to nest orderd and unorderd and multiple lists togther</li>
+            <li>Final outcome is a list like this. </li>
+          </ul>
+          </li>
+          <li> desciption lists
+          <ul>
+            <li>created using <code> dl, dt </code>and <code>dd</code></li>
+          </ul>
+          </li>
+        </ol>
+        <p>We were also shown how to create a table using<code> &lt;table&gt; , &lt;tr&gt; , &lt;th&gt; and &lt;td&gt;</code>. I don’t have much use for a table within my website as they are no longer used in HTML to lay things out, but below I have a small
+          example of how it would look when created.
+        </p>
+        <table>
+          <tr>
+            <th>Day/time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+          </tr>
+          <tr>
+            <td>9-10am</td>
+            <td>CI404 lecture</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>10-11am</td>
+            <td>CI404 lecture</td>
+            <td>C401 lab </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>11-12am</td>
+            <td>CI404 lab</td>
+            <td>CI401 lab</td>
+            <td>CI435 lab</td>
+          </tr>
+          <tr>
+            <td>12-1pm</td>
+            <td>CI401 lab</td>
+            <td>lunch</td>
+            <td>CI405 lab</td>
+
+          </tr>
+          <tr>
+            <td>1-2pm</td>
+            <td>lunch</td>
+            <td>CI435 lab</td>
+            <td>lunch</td>
+          </tr>
+          <tr>
+            <td>2-3pm</td>
+            <td>CI453 lecture</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>3-4pm</td>
+            <td>CI405 lecture</td>
+            <td>Tutor</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>4-5pm</td>
+            <td>CI401 lecture</td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+        <p>If I ever need to quote text in my learning journal or provide a citation for a source I will mark it up with the <code>&lt;blockquote&gt;</code> and a footer containing <code>&lt;cite&gt;</code> aswell as a link for where the source has come
+          from. It is always important to credit work that is not yours within your website otherwise you could be blamed for copyright.</p>
+        <p>This is how the quote will be displayed in the page using <code>&lt;blockquote&gt;</code> and <code>&lt;cite&gt;</code></p>
+        <blockquote>
+          <p>"HTML"(the Hypertext Markup Language) and CSS (Cascading Style Sheets) are two of the core technologies for building Web pages. HTML provides the structure of the page, CSS the (visual and aural) layout, for a variety of devices. Along with
+            graphics and scripting, HTML and CSS are the basis of building Web pages...</p>
+          <footer><cite><a href="http://www.w3.org/standards/webdesign/htmlcss">W3C standards for web design</a></cite></footer>
+        </blockquote>
+        <div class="fltlft">
+            <a href="http://www.w3.org/html/logo/"><img src="images/logo.png" alt="HTML5 logo" /></a>
+        <p>Last week we learnt how to import images , images can also be made into links. This can be down by nesting an <code>&lt;img/&gt;</code> tag inside a <code>&lt;a&gt;</code> tag with the destination of the link.If you nest all of this with a <code>&lt;p&gt;</code>tag along with your chosen writing , the text should wrap around your chosen image rather that being above or below it . once again the alt attribute has been used to describe the image to make the webpage accessible to people who are unable to view it.</p>
+        <div class="clear"></div>
+        </div>
+        
+        <h4>Extra reading:</h4>
+        <p>As I have stressed previously it is extremely important to make your webpage as accessible as possible, one of the reasons for this is so that blind people are able to make sense of your page. By using the right elements, ordering your HTML properly,
+          and adding descriptions to any images or media inserted a screen reader (used by the blind) can make sense of your page and convert it into coherent text for the listener to understand.</p>
+        <p>I also read more into Hyperlinks and how they work. To understand how a hyperlink works you first need to understand URLS (uniform resource locators) and file paths.</p>
+        <dl>
+          <dt>URL</dt>
+          <dd>a string of text and defines where something is located on the web, using paths to find files.</dd>
+          <dt>Paths</dt>
+          <dd>specify where in the filesystem the file you are interested is located.</dd>
+          </dl>
+          <p>Links work in a cascading style, for example if you wanted to link to a file that was in the same directory as your current file, e.g. index.html is in the same file as stylesheet.css, you just need to specify the file name. However, if the
+            file was in a subdirectory you would have to move down into said directory before signifying the file you want to link to. To go back up into parent directories ‘..’ can be used + the directory and file name you are looking for.</p>
+          <h5>tips for good link wording:</h5>
+          <ul class="highlight">
+            <li>Be specific and precise about where the link is taking you</li>
+              <li>Don’t repeat URLs as part of the link text</li>
+              <li>Don’t say link or links to in the link text it is unnecessary and can draw the user’s attention away from the actual link</li>
+              <li>Don’t let multiple copies of the same text be linked to different places, as it can cause problems to screen reader users.</li>
+            </ul>
+      </article>
+      <article class="post">
+        <header>
+          <h3><a id="week2"></a>Week 2 - Learning more tags</h3>
+          <p>Published on <time datetime="2019-10-08"><strong>October 08, 2019</strong></time></p>
+        </header>
+        <p>Learnt how to date and mark up my learning journal posts using the datetime attribute, when using the datetime attribute it is important to write out the date in the right format YYYY-MM-DD.</p>
+        <p> In this tutorial we were also show the header elements and how to create ordered <code>&lt;ol&gt;</code> and unordered <code>&lt;ul&gt;</code> lists.</p>
+        <p>When trying to add code I learnt that you could mark up your content with the <code>&lt;code&gt;</code> tag , allowing the browser stylesheet to style it differently from normal text. And common code character such as &lt; and &gt; can be replaced
+          with htmlspecialchars.</p>
+        <p>In week two we added anchors to our pages allowing us to navigate within a single web page. By giving an anchor tag an id attribute it will identify it uniquely on the page.</p>
+        <h4>Anchor tags can be used for many reasons</h4>
+        <ul class="highlight">
+          <li>To link to another part of the same page</li>
+          <li>To link to a specific part of a different page </li>
+          <li>On long, scrolling pages to link to contents at the top</li>
+          <li>At the bottom of a long page to navigate back to the top</li>
+        </ul>
+        <p>You can add images into your web page using the <code>&lt;img/&gt;</code> tag , it is important to note that this is a self closing tag.</p>
+        <p>Before adding images into your web page you must first make sure that it is resized, optimised and saved in a suitable file format. It is also important not use images that you do not have copyright / permission to use. Furthermore when using
+          an image that you have permission for you must always credit the creator/source.</p>
+        <p>In order to make your page accessible images should always have alternative text to describe their content, this can be done with either the alt text or <code>&lt;figcaption&gt;</code> markup.</p>
+        <figure>
+        <img src="images/autumn.jpg" alt="autumn">
+        <figcaption>Autumn leaves-by aki_fukaki from FreeImages</figcaption>
+        </figure>
+        <h4>Extra reading:</h4>
+      </article>
+      <article class="post">
+        <header>
+          <h3><a id="week1"></a>Week 1 - Getting started</h3>
+          <p>Published on <time datetime="2019-10-01"><strong>October 1, 2019</strong></time></p>
+        </header>
+        <h4> Creating a site folder and a learning journal page:</h4>
+        <p>
+          Learnt about the importance of proper website management. it is important to organise all files, HTML, images, CSS etc in a root directory. If files are moved or renamed links made in the HTML code will be broken
+        </p>
+        <h4>There are strict syntax rules for HTML they are as follows:</h4>
+        <ul class="highlight">
+          <li>Elements must be correctly nested</li>
+          <li>Elements must always be closed</li>
+          <li>Elements must be written in lowercase</li>
+          <li>Attribute names must be in lower case </li>
+          <li>Attribute values must be quoted</li>
+        </ul>
+        <p>
+          I also learnt how to create links within my webpage using the HREF attribute. this was so that I could link different pages within the site together, it also allows you to link to external sources.
+        </p>
+        <dl>
+          <dt>Absolute link </dt>
+          <dd>links to external resources </dd>
+          <dt>Relative link </dt>
+          <dd>links to a file within the website folder </dd>
+        </dl>
+        <p>Whilst editing a webpage it is a good idea to constantly check it in a browser of your choice to make sure is displays as desired. At the end of the tutorial I validated my HTML using W3C validator to check my code for any errors.
+        </p>
+        <h4>Extra Reading:</h4>
+        <p>Using web standards allows websites to be accessible and low cost, making sure they keep on functioning as traditional browsers evolve.</p>
+        <p>A key component of web standards is the separation of HTML and CSS , it forces designers to separate content and stop using presentation tags within their HTML code. This allows a whole webpage to be restyled in one go. It can also allow faster
+          loading times as page sizes are reduced, creating a better user experience.</p>
+      </article>
+      <hr>
+      <article>
+            <header>
+          <h3><a id="refs"></a>Refrences</h3>
+          <ul>
+            <li><a href="https://developer.mozilla.org" target="_blank">https://developer.mozilla.org</a></li>
+            <li><a href="https://www.w3schools.com" target="_blank">https://www.w3schools.com</a></li>
+            <li><a href=" http://validator.w3.org/" target="_blank"> http://validator.w3.org/</a></li>
+            <li><a href="https://www.freeimages.com/photo/autumn-1-1382513" target="_blank"> https://www.freeimages.com/photo/autumn-1-1382513</a></li>
+            <li><a href="https://creativecommons.org/licenses/by/3.0/" target="_blank"> https://creativecommons.org/licenses/by/3.0/</a></li>
+         </ul>
+        </header>
+      </article>
+    </main>
+    <footer class=footer>
+      <small>&copy; 2019, author.</small><a href="mailto:e.derham2@uni.brighton.ac.uk">email Eloise Derham</a>
+    </footer>
+  </div>
+  </body>
+</html>
+
+
